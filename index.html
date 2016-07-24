@@ -1,18 +1,123 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>MahaWebsite</title>
-  </head>
+ <head>
+  <title>  </title>
   
-  <body>
-    <h1>MahaWebsite</h1>
-    <h2><em>Website Maha Kece</em></h2>
+  <link rel="stylesheet" href="salam.css">
+  
+ </head>
+ 
+ <body>
+ <!-- form website -->
+  <form>
+   <input type="search" name="search" placeholder="silahkan cari..">
+   <input type="email" name="email" placeholder="email">
+   <input name="startdate" min="2012-01-01" max="2013-01-01" type="date">
+   <input type="color">
+   <input type="submit">
+  </form>
+
+  <!-- menu website -->
+  <div id="menu_web">
+   <a href="salam.html"    class="menu">Home</a>
+   <a href="salam(2).html" class="menu">Profil Author</a>
+  </div>
+  
+  <!-- bagian awal, isinya tag heading -->
+  <div>
+   <img src="Knowledge Photo(2).jpg" alt="Knowledge Logo" height="200" width="1000">
+   <h1> <em>Find and Say Salaam to Knowledge</em> </h1>
+   <h3> Mencari Pengetahuan, Menuai berkah, Mengenal Dunia Lewat Ilmu Pengetahuan </h3>
+   <p> Author: <b>Fakhri</b> Hakim Ramadhana & Mahatma Ahmad Dzul<b>Vickar</b> </h4>
+  </div>
+
+  <!-- konten dari websitenya -->
+  <div>
+   <p> <em><b>Assalamu'alaikum Warahmatullahi Wabarakatuh,</b></em> </p>
+   <p> <b>Selamat Datang di Website <mark><ins>Find and Say Salaam to Knowledge</ins></mark></b> </p>
+   <p> <b>Di Website ini, diharapkan kita semua bisa belajar bersama, mencari pengetahuan, dan mengenal dunia yang selama ini kita tinggali.</b> </p>
+  </div>
+
+  <div>
+   <a href="http://fakhrihakim1.blogspot.com"> Silahkan Cek Blog nya Fakhri </a>
+  </div> 
+
+  
+  <div>
+   <p> Daftar Topik Belajar yang akan dibahas:
+  </div>
+
+  <ul>
+   <li>Sains & Teknologi</li>
+   <li>Agama Islam</li>
+  </ul>
+  
+   <!-- form website -->
+  <form>
+   <fieldset>
+    <legend>Nama & Pesan User</legend>
+    <label for="nama_user">Nama</label>
+    <input type="text" placeholder="Nama Pengunjung" id="nama_user">
+	<br>
+    <label for="pesan_user">Pesan</label>
+    <textarea cols="100" rows="7" id="pesan_user"> Silahkan tulis pesan kalian... </textarea>
+   </fieldset>	
     
-    <form>
-      <p>Nama</p><br> 
-      <input type="textarea" height="5" width="35">
-    </form>
+   <fieldset>
+    <legend>Jenis Kelamin User</legend>
+    <p> <em>Gender</em> kalian apa? </p>
+    <label>Jenis Kelamin :</label> <br>
+     <input type="radio" name="gender_user" value="0" checked> Laki-laki
+	 <input type="radio" name="gender_user" value="1"> Perempuan
+   </fieldset>
+   <fieldset>
+    <legend>Hobi User</legend>   
+    <p> <em>For fun,</em> pilih hobi dulu kali ya.. <p>
+    <label>Hobi Pengunjung :</label> <br>
+     <input type="checkbox" name="hobi_user" value="0" checked> Membaca 
+	 <input type="checkbox" name="hobi_user" value="1"> Memasak
+	 <input type="checkbox" name="hobi_user" value="2"> Mendengar Musik
+	 <input type="checkbox" name="hobi_user" value="3"> Bermain Musik
+	 <input type="checkbox" name="hobi_user" value="4"> Bermain <em>Video Games</em>
+	 <input type="checkbox" name="hobi_user" value="5"> Lainnya <input type="text" placeholder="Tulis hobi lain kalian!" id="hobilain_user">
+   </fieldset> 
+   <fieldset>
+    <legend>Pilihan Topik Belajar</legend>   
+    <label>Pilih Topik Belajar :</label>
+	 <select>
+	  <optgroup label="Agama Islam">
+	   <option value="dk">Datangnya Kiamat</option>
+	   <option value="bmt">Biografi Muslim Terkemuka</option>
+	  </optgroup>
+	  <optgroup label="Sains & Teknologi">
+	   <option value="fis">Fisika</option>
+	   <option value="bio">Biologi</option>
+	   <option value="el">Elektronika</option>
+	  </optgroup>
+	 </select>
+	 <input type="submit" value="Pilih Topik Belajar">
+	</fieldset>
+   </form>
+   
+   <p>ada hiburan sedikit nih, video pertama yang diupload ke youtube!</p>
+   <video width="450" height="450" controls>
+    <source src="me at the zoo.mp4" type="video/mp4">
+   </video>
+   
+   <audio width="" height="" controls loop muted>
+    <source src="" type="">
+   </audio>
+   
+   <fieldset>
+    <legend>Umur User</legend>
+	<p>Umur Kalian Berapa?<p>
     
-    
-    
+   </fieldset>
+  
+  
+ 
+
+<p> &copy;2016 Find and Say Salaam to Knowledge </p>
   </body>
 </html>
+ 
